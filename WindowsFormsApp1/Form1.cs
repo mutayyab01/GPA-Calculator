@@ -181,9 +181,9 @@ namespace WindowsFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
-            double var = obj.Gpa();
-          var=  Math.Round(var, 2);
-            label7.Text =var.ToString();
+            double GpaToShow = obj.Gpa();
+          GpaToShow=  Math.Round(GpaToShow, 2);
+            label7.Text =GpaToShow.ToString();
         }
 
 
